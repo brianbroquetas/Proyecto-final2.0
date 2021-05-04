@@ -1,0 +1,33 @@
+ /* NOSOTROS */
+ /* mixin */
+ .nosotros {
+    @include fontStyle(darkorange, 10px);
+    margin-top: 20px;
+    
+
+    .nosotros-img {
+      border-radius: 50px;
+      margin-left: 90px;
+      margin-top: 10px;
+
+      .personal {
+          background-color: black;
+
+          .personal-img {
+              width: 100%;
+              padding: 0;
+              margin-left: 15px;
+              border-radius: 3px;
+          }
+          
+      }
+  }
+}
+.personal-row {
+  background-color: black;
+ /* mixin */
+  .personal-contenedor {
+      @include fontStyle(darkslateblue, 3px);
+}
+
+}

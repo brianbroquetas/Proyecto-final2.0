@@ -1,0 +1,52 @@
+/* CLASES */
+
+/* Main variables */
+.divMain {
+    background-color: $colorbg;
+
+    /* Carrusel */
+  .slide {
+    margin-top: 10px;
+    }
+  
+  .slide img {
+    height: 65vh;
+    @include fontStyle(10px)
+    }
+    }
+
+  /* Seccion info */
+.section {
+  background-color: $colorbg;
+  text-align: center;
+
+  .info h1 {
+      color: maroon;
+    }
+
+    .box {
+      height: 80px;
+      font-size: 12px;
+      color: green;
+      border-radius: 25px;
+      margin: 23px;
+      -webkit-box-shadow: 4px 0 green inset,
+     0  4px green inset,
+     -4px 0 green inset,
+     0  -4px green inset;
+              box-shadow: 4px 0 green inset,
+     0  4px green inset,
+     -4px 0 green inset,
+     0  -4px green inset;
+    }
+}
+
+  /* Publicidad */
+.publicidad {
+  margin-top: 10px;
+  margin-left: -4px;
+  margin-bottom: 8px;
+}
+.publicidad img {
+  @include fontStyle(50px);
+}

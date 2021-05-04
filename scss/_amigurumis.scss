@@ -1,0 +1,40 @@
+ /* AMIGURUMIS */
+
+ .amigurumi {
+    background-color: darkorange;
+    margin: 0 !important;
+    padding: 25px;
+
+    .amigurumi-sec {
+      border-radius: 15px;
+  }
+
+  .tecnica {
+      background-color: burlywood;
+  }
+
+  .amigurumi-resumen {
+      background-color: cadetblue;
+      width: 100%;
+      margin: 0 !important;
+      border-radius: 15px;
+  }
+
+  .amigurumi-his {
+      background-color: cornsilk;
+      border-radius: 15px;
+      margin-top: 10px;
+
+      .amigurumi-img {
+          width: 100%;
+          max-height: 200px;
+          padding-top: 15px;
+      }
+
+  }
+  
+}
+
+.resumen-title {
+  padding-top: 10px;
+}

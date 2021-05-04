@@ -1,0 +1,11 @@
+/* CONTACTO */
+
+  /* aplicando mixin */
+.imagen-formulario {
+    @include fontStyle(50px);
+    margin-left: 60px;
+  }
+
+  .botones {
+    margin-bottom: 10px;
+  }

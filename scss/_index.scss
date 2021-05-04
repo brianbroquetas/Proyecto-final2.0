@@ -1,0 +1,23 @@
+/* INDEX */
+  /* variable */
+.bienvenida {
+    background-color: $colorbg;
+    text-align: center;
+}
+
+.cartas {
+  background-color: $colorbg;
+
+  .cartas-container {
+      border-radius: 10px;
+
+      .card {
+          margin-left: 30px;
+          margin-bottom: 25px;
+         /* aplicando mixin */
+          .card-body {
+              @include fontStyle (gold, 10px);
+          }
+      }
+  }
+}

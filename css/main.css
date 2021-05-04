@@ -1,0 +1,156 @@
+/* Ejemplo de mixin */
+/* ejemplos de variables */
+/* INDEX */
+.bienvenida {
+  background-color: darkorange;
+  text-align: center; }
+
+.cartas {
+  background-color: darkorange; }
+  .cartas .cartas-container {
+    border-radius: 10px; }
+    .cartas .cartas-container .card {
+      margin-left: 30px;
+      margin-bottom: 25px; }
+      .cartas .cartas-container .card .card-body {
+        background-color: gold;
+        border-radius: 10px; }
+
+/* Footer */
+.footer-container {
+  background-color: forestgreen;
+  text-align: center; }
+  .footer-container .derechos-img {
+    border-radius: 50px; }
+
+/* HEADER */
+.headerBoostrap {
+  background-color: crimson;
+  /* Logo Sup Link */
+  /* Nav Bar */ }
+  .headerBoostrap .logo-img {
+    border-radius: 50px; }
+  .headerBoostrap .nav {
+    font-size: 20px; }
+
+/* Main variables */
+.divMain {
+  background-color: darkorange;
+  /* Carrusel */ }
+  .divMain .slide {
+    margin-top: 10px; }
+  .divMain .slide img {
+    height: 65vh;
+    border-radius: 10px; }
+
+/* Seccion info */
+.section {
+  background-color: darkorange;
+  text-align: center; }
+  .section .info h1 {
+    color: maroon; }
+  .section .box {
+    height: 80px;
+    font-size: 12px;
+    color: green;
+    border-radius: 25px;
+    margin: 23px;
+    -webkit-box-shadow: 4px 0 green inset, 0  4px green inset, -4px 0 green inset, 0  -4px green inset;
+    box-shadow: 4px 0 green inset, 0  4px green inset, -4px 0 green inset, 0  -4px green inset; }
+
+/* Publicidad */
+.publicidad {
+  margin-top: 10px;
+  margin-left: -4px;
+  margin-bottom: 8px; }
+
+.publicidad img {
+  border-radius: 50px; }
+
+/* CONTACTO */
+.imagen-formulario {
+  border-radius: 50%;
+  margin-left: 60px; }
+
+.botones {
+  margin-bottom: 10px; }
+
+/* PRODUCTOS */
+.productos-descripcion {
+  text-align: center; }
+
+.stock-container {
+  margin-left: 130px; }
+  .stock-container .stock-body {
+    background-color: olivedrab;
+    border-radius: 5px; }
+  .stock-container .stock-img-top {
+    width: 100%;
+    border-radius: 5px; }
+
+/* GALERIA */
+.alumnado {
+  background-color: darkorange; }
+  .alumnado .galeria {
+    background-color: black; }
+    .alumnado .galeria .galeria-container {
+      margin: 0 !important;
+      padding: 15px; }
+      .alumnado .galeria .galeria-container .galeria-img {
+        width: 100%;
+        height: 243px;
+        border-radius: 5px; }
+      .alumnado .galeria .galeria-container .galeria-img:hover {
+        border: 5px solid black; }
+
+/* AMIGURUMIS */
+.amigurumi {
+  background-color: darkorange;
+  margin: 0 !important;
+  padding: 25px; }
+  .amigurumi .amigurumi-sec {
+    border-radius: 15px; }
+  .amigurumi .tecnica {
+    background-color: burlywood; }
+  .amigurumi .amigurumi-resumen {
+    background-color: cadetblue;
+    width: 100%;
+    margin: 0 !important;
+    border-radius: 15px; }
+  .amigurumi .amigurumi-his {
+    background-color: cornsilk;
+    border-radius: 15px;
+    margin-top: 10px; }
+    .amigurumi .amigurumi-his .amigurumi-img {
+      width: 100%;
+      max-height: 200px;
+      padding-top: 15px; }
+
+.resumen-title {
+  padding-top: 10px; }
+
+/* NOSOTROS */
+.nosotros {
+  background-color: darkorange;
+  margin-top: 20px;
+  border-radius: 10px; }
+  .nosotros .nosotros-img {
+    border-radius: 50px;
+    margin-left: 90px;
+    margin-top: 10px; }
+    .nosotros .nosotros-img .personal {
+      background-color: black; }
+      .nosotros .nosotros-img .personal .personal-img {
+        width: 100%;
+        padding: 0;
+        margin-left: 15px;
+        border-radius: 3px; }
+
+.personal-row {
+  background-color: black; }
+  .personal-row .personal-contenedor {
+    background-color: darkslateblue;
+    border-radius: 3px; }
+
+.bodyBoostrap {
+  background-color: indianred; }

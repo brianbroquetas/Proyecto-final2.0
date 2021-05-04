@@ -1,0 +1,9 @@
+/* mixin */
+
+/* Ejemplo de mixin */
+
+@mixin fontStyle ($color, $fontSize, $borderRadius){
+    background-color: $color;
+    font-size: $fontSize;
+    border-radius: $borderRadius;
+}

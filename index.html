@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body class="bodyBoostrap">
 
@@ -24,7 +24,7 @@
         <!--Logo Sup Link-->
            <div class="col-4 logo">
 
-               <a href="../index.html"><img src="../style/img/Logo-sup.png" alt="Logo1" class="logo-img"></a>
+               <a href="./index.html"><img src="./style/img/Logo-sup.png" alt="Logo1" class="logo-img"></a>
 
            </div>
 
@@ -33,89 +33,81 @@
 
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                  <a class="nav-link active" href="../index.html">Inicio</a>
+                  <a class="nav-link active" href="./index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./ProductosB.html">Productos</a>
+                  <a class="nav-link" href="./paginas/ProductosB.html">Productos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./clasesB.html">Clases</a>
+                  <a class="nav-link" href="./paginas/clasesB.html">Clases</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./contactoB.html">Contactos</a>
+                    <a class="nav-link" href="./paginas/contactoB.html">Contactos</a>
                   </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="../index.html" tabindex="-1" aria-disabled="true">Tantanakuy</a>
+                  <a class="nav-link disabled" href="./index.html" tabindex="-1" aria-disabled="true">Tantanakuy</a>
                 </li>
               </ul>
 
            </nav>
 
        </header>
-      <!-- Main-productos-->
-       <main class="row divMain">
+    
+       <!--Row main-->
+        <main class="row divMain">
+            <div class="heroimg text-white col-12">
+              <img src="./style/img/heroimage.jpg" class="heroimg-img img-fluid" alt="heroimage">
+            </div>
+        </main>
+
+       <!--Seccion bienvenida-->
+        <section class="row bienvenida">
+          <div class="bienvenida-overlay col-12">
+            <h1 class="bienvenida-title">Un lugar de encuentro.</h1>
+            <p class="bienvenida-text">Dejate atrapar por la magia del tejido.</p>
+          </div>
+        </section>
+
         
-        <!--productos bienvenida-->
-           <div class="row productos">
-               <aside class="col-3 productos-deco">
-                   <img src="../style/img/corazon.png" alt="corazon" class="productos-img">
-               </aside>
-               <section class="col-6 productos-descripcion">
-                   <h1 class="productos-title">Nuestros productos.</h1>
-                   <p class="productos-stracto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea earum alias iure? Nisi, dolorum consequuntur pariatur aliquam hic veniam amet aperiam repudiandae magnam optio, deleniti inventore, velit ad minus at!</p>
-               </section>
-               <aside class="col-3 productos-deco">
-                   <img src="../style/img/arbol.png" alt="arbol" class="productos-img">
-               </aside>
-           </div>
 
-           <hr class="space">
-         <!--productos-->
-           <section class="row stock text-center">
-            <div class="col" >
-              <div class="stock-container" style="width: 18rem;">
-                <img src="../style/img/amigurumi.jpg" class="stock-img-top" alt="...">
-                <div class="stock-body">
-                  <!--producto1-->
-                  <p class="stock-title">Artesanias.</p>
-                  <p class="stock-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
+        <!--Cards-->
+        <section class="row cartas">
+          <div class="col-4 cartas-container">
+            <div class="card" style="width: 18rem;">
+              <img src="./style/img/card1.jpg" class="card-img-top" alt="card1">
+              <div class="card-body">
+                <h5 class="card-title">Tecnica Amigurumi</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="./paginas/amigurumisB.html" class="btn btn-primary">Nuestra tecnica favorita</a>
               </div>
             </div>
-            <div class="col">
-              <div class="stock-container" style="width: 18rem;">
-                <img src="../style/img/tejidos.jpeg" class="stock-img-top" alt="...">
-                <div class="stock-body">
-                  <!--producto2-->
-                  <p class="stock-title">Tejidos.</p>
-                  <p class="stock-stock">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="w-100"></div>
-            <div class="col">
-              <div class="stock-container" style="width: 18rem;">
-                <img src="../style/img/agujas.jpeg" class="stock-img-top" alt="...">
-                <div class="stock-body">
-                  <!--producto3-->
-                  <p class="stock-title">Agujas.</p>
-                  <p class="stock-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="stock-container" style="width: 18rem;" >
-                <img src="../style/img/accesorios.jpeg" class="stock-img-top" alt="...">
-                <div class="stock-body">
-                  <!--producto4-->
-                  <p class="stock-title">Accesorios.</p>
-                  <p class="stock-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-          </section>
+          </div>
 
-       </main>
+          <div class="col-4 cartas-container">
+            <div class="card" style="width: 18rem;">
+              <img src="./style/img/card2.jpg" class="card-img-top" alt="card2">
+              <div class="card-body">
+                <h5 class="card-title">Trabajos de alumnado</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="./paginas/trabajosalumnadoB.html" class="btn btn-primary">Hecha un vistazo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4 cartas-container">
+            <div class="card" style="width: 18rem;">
+              <img src="./style/img/card3.jpg" class="card-img-top" alt="card3">
+              <div class="card-body">
+                <h5 class="card-title">Nosotros</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="./paginas/nosotrosB.html" class="btn btn-primary">Conocenos</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+       
+    
         <!--Row footer-->
 
             <footer class="row footer-container align-self-center">
@@ -123,7 +115,7 @@
               <!--Redes sociales-->
               <div class="row justify-content-around col-4 social">                  
                     <div class="col-12">
-                      <h3 class="social-title">Seguinos</h3>
+                      <h3 class="social-title">Seguinos.</h3>
                     </div>
                     <div class="col-12">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook social-link" viewBox="0 0 16 16">
@@ -141,13 +133,13 @@
 
                 <!--Link a contactos-->
                 <div class="col-4 contacto">
-                     <h3 class="contacto-titulo">Contactanos para mas informacion</h3>
-                     <button type="button" class="btn btn-light contacto-boton"><a href="./contactoB.html">CONTACTA</a></button>
+                     <h3 class="contacto-titulo">Contactanos para mas informacion.</h3>
+                     <button type="button" class="btn btn-light contacto-boton"><a href="./paginas/contactoB.html">CONTACTA</a></button>
                 </div>
 
                 <!--Derechos-->
                 <div class="col-4 derechos">
-                    <img src="../style/img/Logo-sup.png" alt="Logo2" class="derechos-img">
+                    <img src="./style/img/Logo-sup.png" alt="Logo2" class="derechos-img">
                     <h3 class="derechos-titulo">Copyright 2021.</h3>
                     <p class="derecho-copyright">De la mano de <a href="https://www.facebook.com/brian.broquetas/">Brian Broquetas.</a></p>
                 </div>

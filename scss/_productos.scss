@@ -1,0 +1,19 @@
+ /* PRODUCTOS */
+  
+ .productos-descripcion {
+    text-align: center;
+  }
+
+  .stock-container {
+    margin-left: 130px;
+
+    .stock-body {
+        background-color: olivedrab;
+        border-radius: 5px;
+      }
+
+      .stock-img-top {
+        width: 100%;
+        border-radius: 5px;
+    }
+}
