@@ -1,19 +1,36 @@
  /* PRODUCTOS */
+
+ .productos {
+   
+   .productos-title {
+    @include fontStyle(35px, 20px, maroon);
+   }
+ }
+
+ .stock {
+   margin-top: $marginTop;
+
+  .stock-col {
+    border-radius: 20px;
+    text-shadow: 1px 1px 1px #000;
+ 
+    .stock-productos {
+     border-radius: $borderRadius;
+     background-color:forestgreen;
+     text-shadow: 1px 1px 1px #000;
   
- .productos-descripcion {
-    text-align: center;
-  }
-
-  .stock-container {
-    margin-left: 130px;
-
-    .stock-body {
-        background-color: olivedrab;
-        border-radius: 5px;
+  
+      .stock-img {
+        width: 95%;
+        margin-top: 13px;
+        border-radius: $borderRadius;
       }
-
-      .stock-img-top {
-        width: 100%;
-        border-radius: 5px;
-    }
-}
+ 
+      .stock-img {
+       &:hover {
+         border: 5px solid forestgreen;
+     }
+      }
+   }
+  }
+ }

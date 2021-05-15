@@ -1,23 +1,45 @@
-/* INDEX */
-  /* variable */
-.bienvenida {
-    background-color: $colorbg;
-    text-align: center;
+
+/* HERO-MAIN*/
+
+.hero {
+  background-image: linear-gradient(rgba(102,51,0,0.6),rgba(153,102,51,0.2)),url(../style/img/heroimage.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  height: 80vh;
+  padding-top: 8vh;
+  padding-bottom: 30vh;
+  margin-top: $marginTop;
+  border-radius: $borderRadius;
+
+ 
+  .hero-title {
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: coral;
+    text-shadow: 1px 1px 1px #000;
+  }
+  .hero-text {
+    font-size: 1.3rem;
+    line-height: 1.3;
+    color: salmon;
+    text-shadow: 1px 1px 1px rosybrown;
+    padding-left: 0.2rem;
+  }
 }
 
-.cartas {
-  background-color: $colorbg;
+/* TARJETAS */
 
-  .cartas-container {
-      border-radius: 10px;
+.cards {
+      @include fontStyle(35px, 20px, crimson);
+      text-shadow: 1px 1px 1px maroon;
+}
 
-      .card {
-          margin-left: 30px;
-          margin-bottom: 25px;
-         /* aplicando mixin */
-          .card-body {
-              @include fontStyle (gold, 10px);
-          }
-      }
+.card {
+  border-radius: $borderRadius;
+  background-color: gold;
+  margin-bottom: 15px;
+
+  .card-title {
+    color: mediumseagreen;
   }
 }

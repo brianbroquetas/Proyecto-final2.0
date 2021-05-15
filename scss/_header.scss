@@ -1,6 +1,6 @@
 /* HEADER */
 .headerBoostrap {
-    background-color: crimson;
+    background-color: darkred;
 
     /* Logo Sup Link */
 .logo-img {
@@ -9,5 +9,9 @@
   /* Nav Bar */
 .nav {
   font-size: 20px;
+
+  .nav-link {
+    color: yellow;
+  }
   }
   }

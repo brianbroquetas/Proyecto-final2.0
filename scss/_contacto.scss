@@ -1,11 +1,16 @@
-/* CONTACTO */
-
-  /* aplicando mixin */
 .imagen-formulario {
-    @include fontStyle(50px);
+    border-radius: 50px;
     margin-left: 60px;
+  }
+
+.form {
+  .form-title { 
+      @include fontStyle(35px, 20px, maroon);
   }
 
   .botones {
     margin-bottom: 10px;
   }
+}
+
+  

@@ -1,35 +1,28 @@
-/* CLASES */
+.slide {
+  margin-top: 15px;
+  margin-bottom: 15px;
 
-/* Main variables */
-.divMain {
-    background-color: $colorbg;
-
-    /* Carrusel */
-  .slide {
-    margin-top: 10px;
-    }
-  
-  .slide img {
+  .carousel-img {
     height: 65vh;
-    @include fontStyle(10px)
-    }
+    border-radius: 10px
+}
+}
+
+.clases-cuerpo {
+
+  .clases-info {
+
+
+    .clases-title {
+      @include fontStyle(35px, 20px, maroon);
     }
 
-  /* Seccion info */
-.section {
-  background-color: $colorbg;
-  text-align: center;
+    /* BOXS */
 
-  .info h1 {
-      color: maroon;
-    }
-
-    .box {
-      height: 80px;
-      font-size: 12px;
-      color: green;
+    .clases-box {
+      height: 80px; 
       border-radius: 25px;
-      margin: 23px;
+      @include fontStyle(12px, 23px, green);
       -webkit-box-shadow: 4px 0 green inset,
      0  4px green inset,
      -4px 0 green inset,
@@ -39,14 +32,17 @@
      -4px 0 green inset,
      0  -4px green inset;
     }
+  }
+
+  .clases-publicidad {
+    margin-top: 10px;
+    margin-left: -4px;
+    
+    .clases-img {
+      border-radius: 20px;
+    }
+  }
 }
 
-  /* Publicidad */
-.publicidad {
-  margin-top: 10px;
-  margin-left: -4px;
-  margin-bottom: 8px;
-}
-.publicidad img {
-  @include fontStyle(50px);
-}
+
+

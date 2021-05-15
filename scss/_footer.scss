@@ -1,10 +1,26 @@
 /* Footer */
 .footer-container {
-    background-color: forestgreen;
+    background-color:darkgreen;
     text-align: center;
 
-    .derechos-img {
+    .social {
+        margin-top: $marginTop;
+    }
+
+    .contacto {
+       margin-top: $marginTop;
+       
+       .contacto-boton {
+        margin-top: $marginTop;
+    }
+    }
+
+    .derechos {
+       margin-top: $marginTop;
+
+       .derechos-img {
         border-radius: 50px;
+    }
     }
   }
   

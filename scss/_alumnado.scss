@@ -1,6 +1,13 @@
-/* GALERIA */
 .alumnado {
-    background-color: darkorange;
+
+    .alumnado-title {
+        font-size: 35px;
+        margin-bottom: 20px;
+        color: slateblue;
+        
+    }
+
+    /*GALERIA*/
 
     .galeria {
       background-color: black;
@@ -10,9 +17,9 @@
           padding: 15px;
 
           .galeria-img {
-              width: 100%;
+              width: $width100;
               height: 243px;
-              border-radius: 5px;
+              border-radius: $borderRadius;
           }
 
           .galeria-img {

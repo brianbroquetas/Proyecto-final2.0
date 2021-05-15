@@ -1,40 +1,35 @@
- /* AMIGURUMIS */
 
- .amigurumi {
-    background-color: darkorange;
-    margin: 0 !important;
-    padding: 25px;
+/*MAIN AMIGURUMI*/
 
-    .amigurumi-sec {
-      border-radius: 15px;
-  }
+.amigurumi-title-principal{
+     text-align: center;
+     @include fontStyle(35px, 25px, khaki);
+ }
 
-  .tecnica {
-      background-color: burlywood;
-  }
+ .amigurumi-title {
+     @include fontStyle(35px, 20px, maroon);
+ }
 
-  .amigurumi-resumen {
-      background-color: cadetblue;
-      width: 100%;
-      margin: 0 !important;
-      border-radius: 15px;
-  }
+ .amigurumi-item {
+     margin-right: 50px;
+ }
 
-  .amigurumi-his {
-      background-color: cornsilk;
-      border-radius: 15px;
-      margin-top: 10px;
+ .amigurumi-text {
+     margin-left: 20px;
+ }
 
-      .amigurumi-img {
-          width: 100%;
-          max-height: 200px;
-          padding-top: 15px;
-      }
+ .amigurumi-upload {
+     margin-left: 45px;
+ }
 
-  }
-  
+ .amigurumi-img {
+    width: $width100;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 60px;
 }
 
-.resumen-title {
-  padding-top: 10px;
-}
+ .amigurumi-img-his {
+     width: $width100;
+     border-radius: 10px;
+ }
