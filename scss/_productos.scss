@@ -2,6 +2,9 @@
 
  .productos {
    
+   .productos-img{
+     margin: 5px;
+   } 
    .productos-title {
     @include fontStyle(35px, 20px, maroon);
    }
@@ -13,11 +16,12 @@
   .stock-col {
     border-radius: 20px;
     text-shadow: 1px 1px 1px #000;
+    max-width: 400px;
  
     .stock-productos {
      border-radius: $borderRadius;
-     background-color:forestgreen;
-     text-shadow: 1px 1px 1px #000;
+     background-color: crimson;
+     text-shadow: 1px 1px 1px black;
   
   
       .stock-img {
@@ -28,7 +32,7 @@
  
       .stock-img {
        &:hover {
-         border: 5px solid forestgreen;
+         border: 5px solid crimson;
      }
       }
    }

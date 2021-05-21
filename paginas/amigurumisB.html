@@ -34,26 +34,31 @@
            </header>
 
            <!--Nav Bar-->
-           <nav class="col-8 nav justify-content-end">
+           <nav class="col-8 nav navbar-expand-lg navbar-dark justify-content-end">
 
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link active" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./ProductosB.html">Productos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./clasesB.html">Clases</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contactoB.html">Contactos</a>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../index.html" tabindex="-1" aria-disabled="true">Tantanakuy</a>
-                </li>
-              </ul>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation" aria-controls="navbarNav">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/ProductosB.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/clasesB.html">Clases</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="../paginas/contactoB.html">Contactos</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html" tabindex="-1" aria-disabled="true">Tantanakuy</a>
+              </li>
+            </ul>
+            </div>
            </nav>
 
        </div>
@@ -68,12 +73,12 @@
 
             <!--IMAGEN AMIGURUMI-->
 
-            <section class="amigurumi-img-container col-6">
+            <section class="amigurumi-img-container col-xs-12 col-sm-12 col-md-6 col-lg-6">
               <img src="../style/img/amigurumistanta.jpg" alt="Varios Amigurumis" class="amigurumi-img">
             </section>
 
             <!--RESUMEN AMIGURUMI-->
-            <aside class="amigurumi-resumen col-6">
+            <aside class="amigurumi-resumen col-xs-12 col-sm-12 col-md-6 col-lg-6">
               <h2 class="amigurumi-title">En conclusion los amigurumis son:</h2>
               <ul class="amigurumi-list text-center">
                 <br>
@@ -98,14 +103,14 @@
           <!--TEJIDO AMIGURUMI-->
 
         <section class="amirugumi-tejido row">
-          <div class="col-6">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <h2 class="amigurumi-title">Una de nuestras tecnicas favoritas de tejido.</h2>
             <p class="amigurumi-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et numquam exercitationem laboriosam id, atque tempora aperiam? Impedit amet sint minus sed error reprehenderit natus fuga optio. Mollitia cupiditate, placeat cum fugit ipsa officiis quo corrupti repudiandae, alias provident delectus fugiat.</p>
           </div>
 
           <!--LINKS AMIGURUMI-->
 
-          <aside class="amigurumi-resumen col-6 text-center">
+          <aside class="amigurumi-resumen col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center">
             <p class="amigurumi-title">Puedes chequear tambien:</p>
                 <ul>
                   <br>
@@ -131,7 +136,7 @@
         <!--HISTORIA AMIGURUMI-->
 
         <section class="amigurumi-hist row">
-          <div class="col-8">
+          <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
             <p class="amigurumi-title">Historia de los amigurumis.</p>
 
             <br>
@@ -142,7 +147,7 @@
               And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
             </p>
           </div>
-          <div class="col-4">
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <img src="../style/img/amigurumisantiguos.jpg" alt="Antiguos-amigurumis" class="amigurumi-img-his">
           </div>
         </section>
@@ -156,11 +161,11 @@
         <footer class="row footer-container align-self-center">
                 
           <!--Redes sociales-->
-          <div class="row justify-content-around col-4 social">                  
-                <div class="col-12">
-                  <h3 class="social-title">Seguinos</h3>
+          <div class="row justify-content-around col-xs-12 col-sm-12 col-md-4 col-lg-4 social">                  
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <h3 class="social-title">Seguinos.</h3>
                 </div>
-                <div class="col-12">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook social-link" viewBox="0 0 16 16">
                     <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
                   </svg>
@@ -175,13 +180,13 @@
             </div>
 
             <!--Link a contactos-->
-            <div class="col-4 contacto">
-                 <h3 class="contacto-titulo">Contactanos para mas informacion</h3>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 contacto">
+                 <h3 class="contacto-titulo">Contactanos para mas informacion.</h3>
                  <button type="button" class="btn btn-light contacto-boton"><a href="./contactoB.html">CONTACTA</a></button>
             </div>
 
             <!--Derechos-->
-            <div class="col-4 derechos">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 derechos">
                 <img src="../style/img/Logo-sup.png" alt="Logo2" class="derechos-img">
                 <h3 class="derechos-titulo">Copyright 2021.</h3>
                 <p class="derecho-copyright">De la mano de <a href="https://github.com/brianbroquetas" target="_blank">Brian Broquetas.</a></p>
