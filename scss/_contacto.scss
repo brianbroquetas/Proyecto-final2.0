@@ -5,11 +5,21 @@
 
 .form {
   .form-title { 
-      @include fontStyle(35px, 20px, maroon);
+      @include fontStyle(60px, 20px, maroon);
+      font-family: $fontIndie;
+  }
+
+  .form-text {
+    font-family: $fontPlayfair;
+  }
+
+  .form-group {
+    font-family: $fontIndie;
   }
 
   .botones {
     margin-bottom: 10px;
+    font-family: $fontIndie;
   }
 }
 

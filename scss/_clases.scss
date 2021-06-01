@@ -14,12 +14,18 @@
 
 
     .clases-title {
-      @include fontStyle(35px, 20px, maroon);
+      @include fontStyle(50px, 20px, maroon);
+      font-family: $fontIndie;
+    }
+
+    .clases-text {
+      font-family: $fontPlayfair;
     }
 
     /* BOXS */
 
     .clases-box {
+      font-family: $fontIndie;
       height: 80px; 
       border-radius: 25px;
       @include fontStyle(12px, 23px, green);

@@ -2,9 +2,14 @@
 .footer-container {
     background-color: orangered;
     text-align: center;
+    font-family: $fontIndie;
 
     .social {
         margin-top: $marginTop;
+        
+        .social-link {
+            font-family: $fontPlayfair;
+        }
     }
 
     .contacto {
@@ -12,6 +17,7 @@
        
        .contacto-boton {
         margin-top: $marginTop;
+        font-family: $fontPlayfair;
     }
     }
 
@@ -21,6 +27,9 @@
        .derechos-img {
         border-radius: 50px;
     }
+       .derecho-copyright {
+        font-family: $fontPlayfair;
+       }
     }
   }
   

@@ -3,19 +3,23 @@
 
 .amigurumi-title-principal{
      text-align: center;
-     @include fontStyle(35px, 25px, khaki);
+     @include fontStyle(60px, 25px, khaki);
+     font-family: $fontIndie;
  }
 
  .amigurumi-title {
      @include fontStyle(35px, 20px, maroon);
+     font-family: $fontIndie;
  }
 
  .amigurumi-item {
      margin-right: 50px;
+     font-family: $fontPlayfair;
  }
 
  .amigurumi-text {
      margin-left: 20px;
+     font-family: $fontPlayfair;
  }
 
  .amigurumi-upload {

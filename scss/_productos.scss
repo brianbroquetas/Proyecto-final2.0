@@ -7,6 +7,10 @@
    } 
    .productos-title {
     @include fontStyle(35px, 20px, maroon);
+    font-family: $fontIndie;
+   }
+   .productos-stracto{
+     font-family: $fontPlayfair;
    }
  }
 
@@ -23,6 +27,9 @@
      background-color: crimson;
      text-shadow: 1px 1px 1px black;
   
+     .stock-title {
+       font-family: $fontIndie;
+     }
   
       .stock-img {
         width: 95%;
@@ -34,7 +41,7 @@
        &:hover {
          border: 5px solid crimson;
      }
-      }
+    }
    }
   }
  }

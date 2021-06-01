@@ -4,12 +4,17 @@
     margin-top: 20px;
     
     .nosotros-title {
-      @include fontStyle(45px, 20px, maroon);
+      @include fontStyle(60px, 20px, maroon);
+      font-family: $fontIndie;
+    }
+
+    .nosotros-text {
+      font-family: $fontPlayfair;
     }
 
     .nosotros-img {
       border-radius: 50px;
-      margin-top: 30px;
+      margin-bottom: 20px;
     }
           
   }
@@ -18,29 +23,38 @@
 
     .personal-masters{
       @include fontStyle(35px, 20px, darkslategrey);
+      font-family: $fontIndie;
     }
 
     .personal-representante {
-
-      .personal-bgc {
-        background-color: darkslateblue;
-        margin: 10px;
-        border-radius: 20px;
   
         .personal-img {
-          width: $width100;
           padding: 0;
           margin-top: 30px;
           border-radius: 3px;
       }
       }
       .personal-title {
-        @include fontStyle(20px, 20px, darkorange);
+        @include fontStyle(20px, 20px, brown);
+        font-family: $fontIndie;
       }
    }
+  
+
+  .testimonios {
+    .testimonio-title {
+      @include fontStyle(35px, 20px, darkslategrey);
+      font-family: $fontIndie;
+    }
+  
+    .testimonio-text {
+      font-family: $fontPlayfair;
+    }
+  
+    .testimonio-name {
+      font-family: $fontIndie;
+    }
   }
 
-  .testimonio-title {
-    @include fontStyle(35px, 20px, darkslategrey);
-  }
+
   

@@ -1,5 +1,9 @@
 /* MODULOS */
 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playfair+Display:ital,wght@1,400;1,600&display=swap');
+
+@import "medias";
+
 @import "mixins";
 
 @import "variables";
@@ -22,8 +26,11 @@
 
 @import "nosotros";
 
+
+
 ul {
   list-style-type: none;
+  font-family: $fontPlayfair;
 }
 
 .bodyBoostrap {
