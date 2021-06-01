@@ -81,6 +81,8 @@
       border-radius: 50px; }
     .footer-container .derechos .derecho-copyright {
       font-family: "Playfair Display", serif; }
+  .footer-container .link {
+    color: black; }
 
 /* HEADER */
 .headerBoostrap {
